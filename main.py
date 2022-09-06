@@ -74,10 +74,10 @@ if args.train:
     train(train_iter, test_iter, cnn, args)
 
 if args.test:
-    eval(test_iter, cnn, args)
+    test(test_iter, cnn, args)
 
 if args.predict:
     while(True):
         text = input(">>")
-        label = predict(text, cnn, text_field, label_field, True)
+        label = predict(text, cnn, text_field, label_field, False)
         print (str(label) + " | " + text)

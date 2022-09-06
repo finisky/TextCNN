@@ -15,8 +15,12 @@ A simple TextCNN pytorch implementation
 使用的数据集是weibo_senti_100k中的部分数据，其中train/test分别有20000和3000条。
 
 # Requirements
-pytorch==1.3.1
+torch==1.12.1
 torchtext==0.4.0
+jieba==0.42.1
+
+# Install
+`pip3 install -r requirements.txt`
 
 # Train
 `python main.py -train`

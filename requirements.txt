@@ -1,0 +1,5 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+torch==1.12.1+cpu
+torchtext==0.4.0
+jieba==0.42.1
